@@ -4,6 +4,11 @@ function testFunc() {
   return "hi"
 }
 
+
 superbowlWin = (arr) =>{
-  arr.find(e => console.log(e))
+  const answer = arr.find(e => e.result == "W")
+   if(answer == undefined ){
+     return undefined 
+   }
+  else return answer.year
 }
