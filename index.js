@@ -5,5 +5,5 @@ function testFunc() {
 }
 
 superbowlWin = (arr) =>{
-  return arr
+  arr.find(e => console.log(e))
 }
